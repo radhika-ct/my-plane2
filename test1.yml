@@ -1,9 +1,9 @@
 ---
-- hosts: all
+- hosts: remote
   tasks:
   - name: create new file
     copy:
-      dest: "/etc/ansible/task2file.txt"
+      dest: "/home/ansadmin/task3file.txt"
       content:
         radhika gali
         vittalapuram
