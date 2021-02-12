@@ -1,0 +1,9 @@
+---
+- hosts: all
+  tasks:
+  - name: create new file
+    copy:
+      dest: "/etc/ansible/task2file.txt"
+      content:
+        radhika gali
+        vittalapuram
