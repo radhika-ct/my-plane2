@@ -1,9 +1,0 @@
----
-- hosts: remote
-  tasks:
-  - name: create new file
-    copy:
-      dest: "/home/ansadmin/task3file.txt"
-      content:
-        radhika gali
-        vittalapuram
